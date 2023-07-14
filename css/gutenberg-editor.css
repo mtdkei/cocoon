@@ -5375,7 +5375,7 @@ div.editor-styles-wrapper .edit-post-visual-editor__post-title-wrapper {
   border-radius: 2px;
   box-shadow: 0 0 0 1px #e5e8eb;
   display: block;
-  padding: 4px;
+  padding: 3px;
 }
 .style-buttons .__prev {
   height: 48px;
@@ -5431,6 +5431,10 @@ div.editor-styles-wrapper .edit-post-visual-editor__post-title-wrapper {
 .style-buttons .__prev.is-style-numeric-list-step li::after {
   border-width: 1px;
   left: 0.6em;
+}
+.style-buttons .__prev.has-image-style {
+  margin: 0 !important;
+  padding: 0 !important;
 }
 .style-buttons .__prevTitle {
   display: block;

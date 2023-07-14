@@ -1285,7 +1285,7 @@ div.editor-styles-wrapper .edit-post-visual-editor__post-title-wrapper {
     border-radius: 2px;
     box-shadow: 0 0 0 1px #e5e8eb;
     display: block;
-    padding: 4px;
+    padding: 3px;
   }
   //プレビュー画面
   .__prev {
@@ -1352,6 +1352,12 @@ div.editor-styles-wrapper .edit-post-visual-editor__post-title-wrapper {
         border-width: 1px;
         left: 0.6em;
       }
+    }
+
+    //画像ブロック
+    &.has-image-style{
+      margin: 0 !important;
+      padding: 0 !important;
     }
 
   }

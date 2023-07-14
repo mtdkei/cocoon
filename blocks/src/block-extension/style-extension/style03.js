@@ -42,10 +42,6 @@ const addCustomEdit = createHigherOrderComponent( ( BlockEdit ) => {
           buttonText: __( 'デフォルト', THEME_NAME ),
         },
         {
-          style: 'filter-round-corner',
-          buttonText: __( '角丸', THEME_NAME ),
-        },
-        {
           style: 'filter-clarendon',
           buttonText: __( 'Clarendon', THEME_NAME ),
         },
@@ -102,7 +98,7 @@ const addCustomEdit = createHigherOrderComponent( ( BlockEdit ) => {
           { isSelected && (
             <InspectorControls>
               <PanelBody
-                title={ __( '[C] スタイル', THEME_NAME ) }
+                title={ __( '[C] フィルター', THEME_NAME ) }
                 initialOpen={ false }
               >
                 <div class="__clearBtn">
@@ -161,7 +157,10 @@ const addCustomEdit = createHigherOrderComponent( ( BlockEdit ) => {
                                     [ 'has-image-style' ]: style.style,
                                   }
                                 ) }
-                              ></div>
+
+                              >
+                                <img src="../wp-content/themes/cocoon-master/images/block-preview.jpg" />
+                              </div>
                             </span>
                             <span class="__prevTitle">
                               { style.buttonText }

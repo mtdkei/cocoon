@@ -127,7 +127,7 @@ if ( function_exists( 'register_block_style' ) && is_block_editor_style_block_op
   // require_once abspath(__FILE__).'block-editor-styles-paragraph.php'; //ブロックエディタースタイル（段落）
   // require_once abspath(__FILE__).'block-editor-styles-list.php'; //ブロックエディタースタイル（リスト）
   // require_once abspath(__FILE__).'block-editor-styles-group.php'; //ブロックエディタースタイル（グループ）
-  require_once abspath(__FILE__).'block-editor-styles-image.php'; //ブロックエディタースタイル（画像）
+  // require_once abspath(__FILE__).'block-editor-styles-image.php'; //ブロックエディタースタイル（画像）
 }
 
 //Cocoon Blocks
