@@ -144,6 +144,7 @@ function font_pattern_control_sanitize($input) {
         'font_klee',
         'font_kaisei_decol',
         'font_zen_kusenaido',
+        'font_zen_kaku_gothic',
         'font_zen_maru_gothic',
         'font_kiwi',
         'font_kaisei_decol',
