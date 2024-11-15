@@ -707,6 +707,7 @@ _:lang(ja)+_:-webkit-full-screen-document, .list-title-in:before, .list-title-in
 	box-shadow: 0 3px 0 rgba(var(--white-color), 1);
 	margin: 0 0 1em;
 	font-weight: normal;
+	color: rgba(var(--gray-color),1)
 }
 
 .sidebar h3, .widget h2 {
